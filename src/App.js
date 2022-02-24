@@ -1,15 +1,25 @@
 import SidebarNav from './components/SidebarNav/SidebarNav';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Spinner from './components/Spinner/Spinner';
 import './App.css';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Reports from './pages/Reports';
 
 function App() {
 	return (
 		<div className='App'>
 			<header>
-        <SidebarNav />
-				<h1>Using React</h1>
+				<Router>
+					<SidebarNav />
+					<Routes>
+						<Route exact path='/' component={Home} />
+						<Route path='/products' component={Products} />
+						<Route path='/reports' component={Reports} />
+					</Routes>
+				</Router>
 			</header>
-			<Spinner />
+			{/* <Spinner /> */}
 		</div>
 	);
 }

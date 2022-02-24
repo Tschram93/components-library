@@ -3,7 +3,12 @@ import './SidebarNav.css';
 
 const SidebarNav = () => {
   return (
-    <div>SidebarNav</div>
+    <div className='navbar'>
+        <Link to='#' className='menu-bars'>
+          
+        </Link>
+        SidebarNav
+      </div>
   )
 }
 

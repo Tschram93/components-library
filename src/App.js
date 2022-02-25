@@ -1,3 +1,4 @@
+import CardsRGB from './components/CardsRGB/CardsRGB';
 import SidebarNav from './components/SidebarNav/SidebarNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Spinner from './components/Spinner/Spinner';
@@ -19,7 +20,10 @@ function App() {
 					</Routes>
 				</Router>
 			</header>
-			<Spinner />
+			{/* <Spinner /> */}
+			<footer>
+				<CardsRGB />
+			</footer>
 		</div>
 	);
 }

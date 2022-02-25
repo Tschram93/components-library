@@ -1,0 +1,22 @@
+.card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    text-align: center;
+}
+
+.card-image {
+    grid-area: image;
+}
+
+.card-stats {
+    grid-area: stats;
+}
+
+.card-text {
+    grid-area: text;
+}

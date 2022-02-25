@@ -7,7 +7,7 @@ const Spinner = () => {
 	return (
 		<div>
 			<div className='main spinner-3'>
-				<h2>Hello, here is my Spinner Component!</h2>
+				<h2>Page Loading</h2>
 				<p className='hide'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi amet
 					odit, adipisci iure at facere iste, provident totam, magni error

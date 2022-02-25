@@ -14,12 +14,12 @@ function App() {
 					<SidebarNav />
 					<Routes>
 						<Route exact path='/' component={Home} />
-						<Route path='/products' component={Products} />
-						<Route path='/reports' component={Reports} />
+						<Route path='/Products' component={Products} />
+						<Route path='/Reports' component={Reports} />
 					</Routes>
 				</Router>
 			</header>
-			{/* <Spinner /> */}
+			<Spinner />
 		</div>
 	);
 }

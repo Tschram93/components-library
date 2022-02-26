@@ -10,7 +10,7 @@ import Reports from './pages/Reports';
 function App() {
 	return (
 		<div className='App'>
-			<header>
+			{/* <header>
 				<Router>
 					<SidebarNav />
 					<Routes>
@@ -20,10 +20,8 @@ function App() {
 					</Routes>
 				</Router>
 			</header>
-			{/* <Spinner /> */}
-			<footer>
+			<Spinner /> */}
 				<CardsRGB />
-			</footer>
 		</div>
 	);
 }

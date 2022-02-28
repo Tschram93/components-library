@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+section {
+  width: 100%;
+}
+
+
 .home, .reports, .products {
   align-items: center;
   display: flex;

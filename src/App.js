@@ -1,6 +1,7 @@
 import CardsRGB from './components/CardsRGB/CardsRGB';
+import FlipCard from './components/FlipCard/FlipCard';
 import SidebarNav from './components/SidebarNav/SidebarNav';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Spinner from './components/Spinner/Spinner';
 import './App.css';
 import Home from './pages/Home';
@@ -11,17 +12,18 @@ function App() {
 	return (
 		<div className='App'>
 			{/* <header>
-				<Router>
-					<SidebarNav />
+				{/* <Router>
+				<SidebarNav />
 					<Routes>
 						<Route exact path='/' component={Home} />
 						<Route path='/Products' component={Products} />
 						<Route path='/Reports' component={Reports} />
 					</Routes>
-				</Router>
-			</header>
-			<Spinner /> */}
-				<CardsRGB />
+				</Router>  */}
+			{/* </header>  */}
+			{/* <Spinner /> */}
+			<CardsRGB /> 
+			{/* <FlipCard /> */}
 		</div>
 	);
 }

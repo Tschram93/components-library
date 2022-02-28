@@ -38,9 +38,6 @@
     padding: 0px 15px;
 }
 
-.flip-card-front {
-}
-
 .flip-card-front img {
     margin-top: 20px;
     width: 50%;
@@ -51,12 +48,6 @@
     position: relative;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-}
-
-.back-footer {
-}
-
-.back-header {
 }
 
 .title {

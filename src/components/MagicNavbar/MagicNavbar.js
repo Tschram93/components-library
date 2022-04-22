@@ -9,7 +9,7 @@ const MagicNavbar = () => {
 	return (
 		<div className='navigation'>
 			<ul>
-				<li className='list'>
+				<li className='list active'>
 					<a href='#'>
 						<span className='icon'>
 							<IonIcons.IoIosHome />
@@ -50,6 +50,7 @@ const MagicNavbar = () => {
 						<span className='text'>Settings</span>
 					</a>
 				</li>
+                <div className="indicator"></div>
 			</ul>
 		</div>
 	);

@@ -6,6 +6,17 @@ import * as IonIcons5 from 'react-icons/io5';
 import './MagicNavbar.css';
 
 const MagicNavbar = () => {
+    const list = document.querySelectorAll('.list');
+
+function activeLink(){
+    list.forEach((item) => {
+        item.classList.remove('active');
+        this.classList.add('active');
+    })
+} 
+
+list.forEach((item) => item.addEventListener('click', activeLink))
+
 	return (
 		<div className='navigation'>
 			<ul>
@@ -52,6 +63,7 @@ const MagicNavbar = () => {
 				</li>
                 <div className="indicator"></div>
 			</ul>
+            <script src="MainNavbarScript.js"></script>
 		</div>
 	);
 };

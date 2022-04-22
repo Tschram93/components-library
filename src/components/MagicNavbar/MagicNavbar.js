@@ -20,8 +20,7 @@ const MagicNavbar = () => {
 				<li className='list'>
 					<a href='#'>
 						<span className='icon'>
-							{' '}
-							<FaIcons.FaUser />{' '}
+							<FaIcons.FaUser />
 						</span>
 						<span className='text'>Profile</span>
 					</a>
@@ -29,8 +28,7 @@ const MagicNavbar = () => {
 				<li className='list'>
 					<a href='#'>
 						<span className='icon'>
-							{' '}
-							<BiIcons.BiEnvelope />{' '}
+							<BiIcons.BiEnvelope />
 						</span>
 						<span className='text'>Messages</span>
 					</a>
@@ -38,8 +36,8 @@ const MagicNavbar = () => {
 				<li className='list'>
 					<a href='#'>
 						<span className='icon'>
-							{' '}
-							<IonIcons5.IoCamera />{' '}
+							
+							<IonIcons5.IoCamera />
 						</span>
 						<span className='text'>Photos</span>
 					</a>
@@ -47,8 +45,7 @@ const MagicNavbar = () => {
 				<li className='list'>
 					<a href='#'>
 						<span className='icon'>
-							{' '}
-							<IonIcons5.IoSettingsOutline />{' '}
+							<IonIcons5.IoSettingsOutline />
 						</span>
 						<span className='text'>Settings</span>
 					</a>

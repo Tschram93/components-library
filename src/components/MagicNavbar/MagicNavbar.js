@@ -1,4 +1,5 @@
 import React from 'react';
+import * as FaIcons from 'react-icons/io';
 import "./MagicNavbar.css";
 
 const MagicNavbar = () => {
